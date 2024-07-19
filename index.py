@@ -6,7 +6,7 @@ CSV_NAME = './expenses.csv'
 def addExpense():
     category = input("Enter category: ")
     description = input("Enter description: ")
-    amount = float(input("Enter amount: "))~
+    amount = float(input("Enter amount: "))
 
     date = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
